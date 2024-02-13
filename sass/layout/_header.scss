@@ -1,0 +1,29 @@
+header {
+  background-color: rgb(107, 107, 107);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav_item {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto" sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+.nav_item:hover {
+  color: rgb(89, 128, 127);
+}
